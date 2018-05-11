@@ -1,1 +1,4 @@
-@import './modules/_test.css';
+@import './modules/_columns.css';
+@import './modules/_player-column.css';
+@import './modules/_search-form.css';
+@import './modules/_stat-table.css';

@@ -1,15 +1,9 @@
-.columns {
-  display: flex;
-  flex-direction: row;
-}
-.search-form {
-  text-align: center;
-}
 .stat-table {
   margin: 0 auto;
   width: 100%;
   max-width: 300px;
 }
+
 td:nth-child(1) {
   font-weight: bold;
 }

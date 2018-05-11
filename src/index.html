@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hoops Player Comparison</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+  <section class="hero is-dark">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-8 is-offset-2">
+            <form class="search-form">
+              <input class="radio" type="radio" name="player-select" id="player-1">
+              <label for="player-1">Player 1</label>
+
+              <input type="radio" name="player-select" id="player-2">
+              <label for="player-2">Player 2</label>
+
+              <input class="input" type="text" id="search-bar" placeholder="Search players...">
+              <button id="search-button" class="button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-6" id="column-1">
+        </div>
+        <div class="column is-6" id="column-2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
